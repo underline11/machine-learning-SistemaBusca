@@ -1,0 +1,14 @@
+# Sistema de Consulta à Planilha Google
+
+Este projeto é um sistema web simples que permite realizar buscas em tempo real nas colunas **A**, **B** e **C** de uma planilha do Google Sheets publicada como CSV.
+
+## 🔗 Link da planilha
+
+[Planilha pública no Google Sheets](https://docs.google.com/spreadsheets/d/1nVQXUZ6zUX69C_GBCxw7uAuNCxF51XbeJgU9q5g3-Iw/edit#gid=0)
+
+## 🚀 Como usar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-consulta-planilha.git
+   cd sistema-consulta-planilha
