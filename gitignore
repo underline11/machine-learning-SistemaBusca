@@ -1,0 +1,17 @@
+
+---
+
+### ✅ 3. `.gitignore`
+
+```gitignore
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas ocultas de backup
+*.log
+*.bak
+*.tmp
+
+# Ignore o diretório do Glitch (caso use)
+.glitch-assets/
