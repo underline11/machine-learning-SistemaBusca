@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Planilha Google</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+        input { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+    </style>
+</head>
+<body>
+    <h1>🔎 Consultar Dados</h1>
+    <input type="text" id="busca" placeholder="Digite para filtrar (Nome, Categoria ou Código)...">
+    
+    <table id="tabelaDados">
+        <thead>
+            <tr id="cabecalho"></tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
